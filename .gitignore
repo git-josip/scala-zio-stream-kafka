@@ -1,3 +1,6 @@
+### custom jsonl files ###
+amazon_reviews.jsonl
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
