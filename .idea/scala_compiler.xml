@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="scala-zio-stream-kafka,scala-zio-stream-kafka.server" />
+    <profile name="sbt 2" modules="scala-zio-stream-kafka.main,scala-zio-stream-kafka.server.main,scala-zio-stream-kafka.server.test,scala-zio-stream-kafka.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+    </profile>
+  </component>
+</project>
