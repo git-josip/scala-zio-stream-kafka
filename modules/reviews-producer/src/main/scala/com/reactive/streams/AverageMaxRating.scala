@@ -12,6 +12,7 @@ case class ProductReview(asin: String, averageRating: Double, reviewCount: Int)
 
 object AverageMaxRating extends ZIOAppDefault {
   def getTopProducts: ZIO[Any, Throwable, List[ProductReview]] = {
+    // Unzip before start file in resources/reviews/amazon_reviews.jsonl.gz
     val filePath = getClass.getResource("/reviews/amazon_reviews.jsonl").getPath
 
     for {
